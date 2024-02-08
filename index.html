@@ -5,10 +5,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Admin Dashboard</title>
 		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 	</head>
 	<body>
 		<main>
 			<div class="dashboard">
+				<h3>Dashboard</h3>
 				<ul>
 					<li>Home</li>
 					<li>Profile</li>
@@ -23,8 +31,38 @@
 					<li>Privacy</li>
 				</ul>
 			</div>
-			<div class="header"></div>
-			<div class="projects"></div>
+			<div class="header">
+				<div class="searchbar">
+					<i class="fa-solid fa-magnifying-glass"></i
+					><input type="text" />
+				</div>
+				<div class="user">
+					<i class="fa-solid fa-bell"></i>
+					<img
+						src="skeleton.jpg"
+						alt="profile picture"
+						class="tiny"
+					/>
+					<p>James Stone</p>
+				</div>
+				<div class="welcome">
+					<img
+						src="skeleton.jpg"
+						alt="profile picture"
+						class="small"
+					/>
+					<p>Hi there, <span>James Stone (@jstone)</span></p>
+				</div>
+				<div class="post">
+					<button class="new">New</button>
+					<button class="upload">Upload</button>
+					<button class="share">Share</button>
+				</div>
+			</div>
+			<div class="projects">
+				<h4>Your Projects</h4>
+				<div class="project-grid"></div>
+			</div>
 			<div class="announcements"></div>
 			<div class="trending"></div>
 		</main>

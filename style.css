@@ -1,0 +1,9 @@
+.tiny {
+	border-radius: 50%;
+	width: 60px;
+}
+
+.small {
+	border-radius: 50%;
+	width: 100px;
+}
