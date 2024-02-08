@@ -1,3 +1,8 @@
+* {
+	font-family: Roboto, sans-serif;
+	margin: 0;
+	padding: 0;
+}
 .tiny {
 	border-radius: 50%;
 	width: 60px;
@@ -6,4 +11,24 @@
 .small {
 	border-radius: 50%;
 	width: 100px;
+}
+
+li {
+	list-style: none;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 2fr;
+}
+
+.dashboard {
+	background-color: #161a1d;
+	color: white;
+	grid-row: 1/6;
+}
+
+.header {
+	display: grid;
 }
