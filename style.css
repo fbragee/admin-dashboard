@@ -74,6 +74,7 @@ body {
 }
 .buttons button {
 	background-color: #ef233c;
+	color: white;
 	height: 40px;
 	border-radius: 30px;
 	border: none;
@@ -120,9 +121,6 @@ main {
 
 .content {
 	background-color: #e2e8f0;
-}
-
-.content {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
